@@ -1,6 +1,7 @@
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
+
 //DOM links
 const breedSelectElement = document.querySelector('.breed-select');
 const catInfoElement = document.querySelector('.cat-info');
